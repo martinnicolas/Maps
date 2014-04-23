@@ -129,7 +129,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 	/**
 	 * Clase para la ejecución de tareas asíncronas (En segundo plano)
 	 * 
-	 * @author Admin-PC
+	 * @author Espinoza-Moreno
 	 */
 	class EnBackground extends AsyncTask<String, String, String>{
 		
