@@ -79,8 +79,12 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 	 * Muestra una ubicación en el mapa de GoogleMaps
 	 * 
 	 * @param location
+	 * @author Espinoza-Moreno
 	 */
 	private void mostrarPosicion(Location location) {
+		//podríamos ver el ejemplo básico de google para modulizarlo bien
+		
+		
 		
 		//Obtengo el mapa
 		GoogleMap map = ((SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.maps)).getMap();
