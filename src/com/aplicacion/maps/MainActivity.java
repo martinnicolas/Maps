@@ -132,7 +132,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 	 * @author Espinoza-Moreno
 	 */
 	class EnBackground extends AsyncTask<String, String, String>{
-		
+		//estos son los parametros
 		private String latitud;
 	    private String longitud;
 	    	
