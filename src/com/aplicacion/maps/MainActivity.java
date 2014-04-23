@@ -129,7 +129,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 	/**
 	 * Clase para la ejecución de tareas asíncronas (En segundo plano)
 	 * 
-	 * @author Admin-PC
+	 * @author Espinoza-Moreno
 	 */
 	class EnBackground extends AsyncTask<String, String, String>{
 		
@@ -140,7 +140,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 	    protected void onPreExecute() {}
 	    	
 		@Override
-		protected String doInBackground(String... params) {
+		protected String doInBackground(String... params) {			
 			latitud = params[0];
 			longitud= params[1];
 				
